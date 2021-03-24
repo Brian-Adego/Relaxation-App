@@ -1,0 +1,26 @@
+body {
+    background: repeating-linear-gradient(45deg, brown, lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .circle {
+        background: rgba(0, 0, 0, 0.75);
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+
+        & p {
+            color: lightgreen;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+    }
+}
